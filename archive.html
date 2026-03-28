@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archive | Aayush Maan</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <nav class="topbar">
+      <a href="index.html" class="brand">Aayush Maan</a>
+      <div class="topbar-links">
+        <a href="archive.html">Archive</a>
+        <a href="signals.html">Signals</a>
+        <a href="notes.html">Notes</a>
+      </div>
+    </nav>
+
+    <section id="home-view" class="panel page-panel">
+      <div class="panel-header">
+        <h2>Incident archive</h2>
+      </div>
+      <div id="writeup-list" class="writeup-list" aria-live="polite"></div>
+    </section>
+
+    <section id="post-view" class="panel hidden">
+      <button id="back-button" class="back-button" type="button">
+        &larr; Back to writeups
+      </button>
+      <article class="post-card">
+        <h2 id="post-title"></h2>
+        <div id="post-content" class="post-content"></div>
+      </article>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

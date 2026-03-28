@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neon Trace | Cybersecurity Writeups</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <nav class="topbar">
+      <a href="index.html" class="brand">
+        <img src="Photo1.jpg" alt="Aayush Maan" class="brand-avatar">
+        <span>Aayush Maan</span>
+      </a>
+      <div class="topbar-links">
+        <a href="archive.html">Archive</a>
+        <a href="signals.html">Signals</a>
+        <a href="notes.html">Notes</a>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div class="hero-copyblock">
+        <p class="hero-kicker">Security / cloud / CTF</p>
+        <h1 class="typing-headline">
+          <span id="typing-text" data-text="Quiet signals, loud failures."></span>
+          <span class="typing-cursor" aria-hidden="true"></span>
+        </h1>
+        <p class="hero-copy">
+          I am a curious person who likes hunting, learning and writing. Here you'll find all my
+          works and things which I did in my journey of Cybersec.
+        </p>
+      </div>
+      <div class="hero-aside">
+        <div class="hero-badge">terminal</div>
+        <div class="terminal-shell">
+          <div class="terminal-topbar">
+            <span class="terminal-dot"></span>
+            <span class="terminal-dot"></span>
+            <span class="terminal-dot"></span>
+            <span class="terminal-title">aayush@cyber:~</span>
+          </div>
+          <div id="terminal-output" class="terminal-output">
+            <div class="terminal-line">Type <code>help</code> to view commands.</div>
+          </div>
+          <form id="terminal-form" class="terminal-input-row">
+            <label for="terminal-input" class="terminal-prompt">guest@trace:~$</label>
+            <input
+              id="terminal-input"
+              class="terminal-input"
+              type="text"
+              name="terminal-command"
+              autocomplete="off"
+              spellcheck="false"
+              placeholder="cd archive"
+            >
+          </form>
+        </div>
+      </div>
+    </header>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
